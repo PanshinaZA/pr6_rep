@@ -29,7 +29,7 @@
 5. Загрузим данные в pandas и построим гистограмму распределения(использовать my_data.plot.hist(y='public_transportation_pct') для построения гистограммы)
 
 ![image](https://github.com/user-attachments/assets/d91adcc1-806e-4825-9169-530aff9891e7)
-![image](https://github.com/user-attachments/assets/21fb27a4-20dc-42f6-9120-2a96000ec507)
+![image](https://github.com/user-attachments/assets/49b5c2b9-c2ab-43db-9900-553785d16c05)
 ![image](https://github.com/user-attachments/assets/f21402cc-229f-4320-a6a0-15960078045c)
 
 6. Сгруппируем клиентов по их zip_code, и посмотрим на среднее количество транзакций на одного клиента. Экспортируем эти данные в Excel и создадим диаграмму рассеяния, чтобы лучше понять взаимосвязь между использованием общественного транспорта и продажами.

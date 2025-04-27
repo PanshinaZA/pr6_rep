@@ -6,6 +6,7 @@
 1. Необходимо создать таблицу в базе клиентов организации, в которую будем вносить набор данных, для этого подключимся к библиотеке `psycopg2` и установим соединение с PostgreSQL:
 
   ![image](https://github.com/user-attachments/assets/0095d314-ebce-4618-a907-e398eaec2cee)
+  ![image](https://github.com/user-attachments/assets/98f9e00e-c313-4331-b36f-5931c30339c0)
   ![1](https://github.com/user-attachments/assets/dd134aae-0592-4ad8-85bf-66a077f8323c)
 
 2. Затем внесем набор данных в созданную таблицу с помошью `COPY file`:

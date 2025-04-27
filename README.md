@@ -28,6 +28,7 @@
 
 5. Загрузим данные в pandas и построим гистограмму распределения(использовать my_data.plot.hist(y='public_transportation_pct') для построения гистограммы)
 
+![image](https://github.com/user-attachments/assets/d91adcc1-806e-4825-9169-530aff9891e7)
 ![image](https://github.com/user-attachments/assets/21fb27a4-20dc-42f6-9120-2a96000ec507)
 ![image](https://github.com/user-attachments/assets/f21402cc-229f-4320-a6a0-15960078045c)
 

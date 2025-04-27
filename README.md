@@ -5,8 +5,8 @@
 ## Ход работы:
 1. Необходимо создать таблицу в базе клиентов организации, в которую будем вносить набор данных, для этого подключимся к библиотеке `psycopg2` и установим соединение с PostgreSQL:
 
-![image](https://github.com/user-attachments/assets/0095d314-ebce-4618-a907-e398eaec2cee)
-![1](https://github.com/user-attachments/assets/dd134aae-0592-4ad8-85bf-66a077f8323c)
+  ![image](https://github.com/user-attachments/assets/0095d314-ebce-4618-a907-e398eaec2cee)
+  ![1](https://github.com/user-attachments/assets/dd134aae-0592-4ad8-85bf-66a077f8323c)
 
 2. Затем внесем набор данных в созданную таблицу с помошью `COPY file`:
 ![image](https://github.com/user-attachments/assets/343f2842-2254-482f-8a58-03057da05967)
@@ -18,6 +18,7 @@
 
 4. Рассчитаем средний объем продаж для клиентов, проживающих в регионах с высоким уровнем использования общественного транспорта (более 10%), а также с низким уровнем использования общественного транспорта
 (менее или равным 10%).
+
 Для выполнения задания необходимо связать таблицу `public_transportation_statistics_by_zip_code` с таблицей `sales`. Так как у них нет столбца, через который можно провести связь, свяжем таблицы `public_transportation_statistics_by_zip_code` и `customers` через поля `zip_code`/`postal_code` и таблицы `sales` и `customers` через поле `customer_id`. С помощью конструкции `case` разделим клиентов на две группы - с высоким и с низким уровнем использования общественного транспорта, в конце проведем группировку по данным категориям:
 ![image](https://github.com/user-attachments/assets/90d712bc-638f-4191-948d-ae26278365b9)
 ![image](https://github.com/user-attachments/assets/d755548f-55dc-4a0c-971f-b2ce66ce5f72)

@@ -41,6 +41,8 @@
 ![image](https://github.com/user-attachments/assets/9b97a614-f024-4ae0-8965-671ef5e7d3a8)
 ![image](https://github.com/user-attachments/assets/95693ec5-7ef8-47fa-bab2-6f7bf2759d5a)
 
+Заметим, что среднее количество транзакций на одного клиента чаще всего равно 1, но иногда и 2.
+
 `analysis_sales.csv` — файл, в который мы экспортировали данные, находится в репозитории.
 
 `Panshina_Zinaida_Alekseevna_pr6.ipynb` — Jupyter Notebook с выполнением всех заданий, файл находится в репозитории.
